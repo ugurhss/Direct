@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Kişisel Veri İşleme Sözleşmesinin KVK Kanunu’na Uyum Projesindeki Rolü
+Bilindiği üzere Kanun’a uyum sürecindeki en önemli aşamalardan birisi de veri sorumlusunun taraf olarak yer aldığı sözleşmelerin gözden geçirilmesidir. GVKT bakımından da benzer bir durum söz konusu olup, sözleşme yönetimi meselesi IAPP tarafından hazırlanan “GDPR’a Uyum Sürecindeki En İyi 10 Operasyonel Hamle” yazı dizisinde dokuzuncu sırada yer almıştır. Uyum sürecinin sözleşme fazında, veri sorumlusunun öncelikle tüm veri işleyenleri tespit ederek onlarla yapılan mal veya hizmet alım sözleşmelerini masaya yatırması gerekir. Mal veya hizmet alımı sözleşmesi kapsamında yoğun kişisel veri işleme faaliyetinin bulunduğu durumlarda, veri sorumlusunun mevcut mal-hizmet alım sözleşmesini bir kenara bırakarak salt kişisel verilerin işlenmesine ilişkin olarak yeni bir sözleşme akdetmesi daha sağlıklı olacaktır. Ancak mal-hizmet alım sözleşmesi kapsamında yapılan ifalarda, yoğun bir veri işleme söz konusu değilse bu durumda mevcut mal-hizmet alım sözleşmesine gizlilik ya da kişisel verilerin korunması başlıklı bir madde eklenerek kişisel verilerin veri işleyen tarafından nasıl işleneceğine ilişkin hükümler öngörülebilir. Hangi yol tercih edilirse edilsin, kararlaştırılacak yeni sözleşme hükümleriyle birlikte, veri sorumlusu ile veri işleyen arasındaki mevcut ilişki haricinde verilerin hangi şartlar altında işleneceğine yönelik olarak çerçeve bir düzenleme yapılmalıdır. Böylelikle veri sorumlusu, kendi uhdesindeki kişisel verilerin güvenliğinin ve hukuka uygun şekilde işlenmesinin sağlanmasını amaçlar.
+
+Kişisel veri işleme sözleşmesi içerisinde hangi hükümlerin bulunması gerektiği, alınan mal ya da hizmetin niteliğine, veri sorumlusunun ve veri işleyenin içinde bulunduğu şartlara göre değişmekle birlikte, temel olarak hangi konuların düzenlenebileceğine, aşağıda kısaca yer verilmeye çalışılmıştır[2].
+
+Veri işleyenin kişisel verileri işleme şartları ve veri sorumlusunun talimatlarına uygun hareket etme yükümlülüğü (GVKT m. 28/III-a)
+Kişisel Verileri Koruma Kurulu tarafından yayımlanan uygulama rehberinde de belirtildiği üzere veri sorumlusu, yapılacak kişisel veri işleme sözleşmesiyle; (i) kişisel verilerin toplanması için hangi bilgi teknolojileri sistemlerinin veya diğer metotların kullanılacağı, (ii) kişisel verilerin hangi yöntemle saklanacağı, (iii) kişisel verilerin aktarımının hangi yöntemle yapılacağı, (iv) taraflar arasındaki mal veya hizmet alımına ilişkin sözleşmedeki amaca ve süreye bağlı kalacak şekilde işleneceği hususları kararlaştırılabilir.
+
+Bireysel olarak anılan hususları kararlaştırmak yerine işleme şartlarına ilişkin genel çerçevenin KVİS içerisinde, veri sorumlusunun benimsediği kişisel veri işleme ve saklama politikasına atıf yapmak suretiyle belirlenmesi de mümkündür. Böylelikle veri sorumlusu, kendisinin belirlediği ve kurumunda uyguladığı şartların aynen veri işleyen tarafından yerine getirilmesini talep edebilecektir. Nitekim GVKT m. 28/III-a’ya göre yazılı dokümanlara dayanması kaydıyla veri işleyenin, veri sorumlusunun talimatlarına uygun bir veri işleme yapmasının zorunlu olduğu hükme bağlanmıştır. GVKT’ye göre talimata uygun hareket etme yükümlülüğünün tek istisnası, aksinin kanundan kaynaklanmasıdır.
+
+Veri işleyenin veri güvenliğini sağlama konusunda alacağı tedbirlerin tespiti (Kanun m. 12/II, GVKT m. 28/III-c)
+Veri güvenliğinin sağlanmasından müştereken sorumlu olmaları itibariyle, sözleşmede veri işleyenin hangi teknik ve idari tedbirlerin alacağı özel olarak belirtilebilir. Örneğin veri işleyenin, veri sorumlusu adına işlediği verileri yalnızca belirli veritabanı platformlarında ya da yazılımlar aracılığıyla işleyeceği, işlemenin belirli şifreleme standartlarına tâbi olacağı, belli sistem kurtarma senaryolarının oluşturulacağı kararlaştırılabilir.
+
+Şahsen ifa yükümlülüğünün ve dolayısıyla alt işleme yetkisinin bulunup bulunmadığı (GVKT m. 28/III-d)
+Veri işleyenin şahsen ifayla yükümlü olup olmadığı da KVİS bakımında kararlaştırılması gereken hususlardan birisidir. GVKT’de, alt veri işleme yapılmadan önce veri sorumlusunun yazılı rızasının alınması gerektiği hükme bağlanmıştır. Türk hukuku açısından ise alt işleme yaptırılması konusunda, böyle bir engel bulunmamaktadır. Ancak, önemle belirtilmelidir ki alt veri işleyenin bulunması, asıl veri işleyenin sorumluluğunu ortadan kaldırmaz.
+
+Tarafların sır saklama yükümlülüğü (Kanun m. 12/IV, GVKT m. 28/III-b)
+Tarafların mevzuattan kaynaklanan sır saklama yükümlülüklerini yerine getirmek amacıyla KVİS’te gizlilik hükmüne de yer vermek önem arz etmektedir. Eklenen gizlilik hükmüyle veri sorumlusu, veri işleyenden onun geçici ya da kalıcı tüm çalışanlarının kişisel verilerini gizliliğe uygun şekilde işleyeceğinin taahhüdünü almaktadır.
+
+İlgili kişileri aydınlatma yükümlülüğünün veri işleyene devri hâlinde veri işleyenin yükümlülüklerinin tespiti (Kanun, m. 10/I)
+Kanun’un 10. maddesinin birinci fıkrasına göre ilgili kişileri aydınlatma yükümlülüğünün veri sorumlularının yetkilendirdiği kişilerce de yerine getirilmesi mümkündür. Yetkilendirilen kişinin veri işleyen olması durumunda, veri sorumlusu adına yapılacak aydınlatma yükümlülüğünün veri işleyen tarafından nasıl yerine getirileceği hususu sözleşmeyle belirlenebilir. Örneğin, bir giyim firmasının sosyal medya hesaplarının yönetimini, bir tanıtım ajansına devretmesi durumunda, sosyal medyadan veri sorumlusu giyim firması adına toplanacak verilerle ilgili olarak aydınlatma yükümlülüğünün yerine getirilmesi de bir yükümlülük olarak tanıtım ajansına bırakılabilir. Bu durumda tanıtım ajansının yükümlülüğü nasıl yerine getireceği de KVİS’le tespit edilmelidir.
+
+Veri işleyenin ilgili kişilere haklarının kullandırılmasına ilişkin olarak uygun tedbirlerin alınması konusunda veri sorumlusuna yardım etme yükümlülüğü (GVKT m. 28/III-e)
+İlgili kişilerin, haklarını veri işleyen vasıtasıyla kullanmasının mümkün olduğu durumlarda, KVİS’te buna ilişkin bir hükmün öngörülmesi elzemdir. Örneğin ilgili kişinin veri sorumlusuna başvurmak amacıyla, veri işleyene başvuruda bulunması durumunda, söz konusu başvurunun ivedilikle veri sorumlusuna iletilmesi gerekecektir. Veri işleyene, veri sorumlusuna başvurmak amacıyla kendisine yapılan yazılı talepleri veri sorumlusuna iletme yükümlülüğünün öngörülmemesi, veri sorumlusunun ilgili kişilere haklarını efektif şekilde kullandıramama sonucunu doğurabilir.
+
+Veri işleyenin veri güvenliğinin sağlanması, ihlallerin ilgili kişiye ve Kurul’a bildirilmesi konularında veri sorumlusuna yardım etme yükümlülüğü (GVKT m. 28/III-f)
+Sözleşmeyle bu hususun veri işleyen açısından bir yükümlülük olarak öngörülmesi, veri sorumlusu açısından faydalı olacaktır. Böylelikle veri işleyen nezdinde meydana gelecek bir ihlâl, öncelikle veri işleyen tarafından veri sorumlusuna iletilecek; ardından veri sorumlusu tarafından ivedilikle ilgili kişilere ve Kurul’a bildirilmesi sağlanmış olacaktır. AB Hukukunda bu husus GVKT m. 28/III-f’de veri işleyene yüklenen genel bir yükümlülük olarak öngörülmüştür.
+
+Tarafların birbirlerini bilgilendirme ve işbirliğinde bulunma yükümlülüğü (GVKT m. 28/III-h)
+Veri işleyenin, veri sorumlusu adına Kanun’un genel ilkelerine uygun bir veri işleme faaliyetinde bulunabilmesi için, bazı temel konularda veri sorumlusunun veri işleyene bilgi vermesi gerekecektir. Sözleşme kapsamında işlenen verilerin işleme amacı ve vasıtaları bunlara örnek olarak gösterilebilir. Benzer şekilde taraflar arasındaki güvene dayalı kişisel veri işleme sözleşmesinin bulunması, bu sözleşme kapsamında öngörülmemiş olsa dâhi, veri işleyen veri sorumlusuna karşı hesap verme borcu altındadır. Hesap verme borcu kapsamında veri işleyen, örneğin sözleşme konusu işleme faaliyetinin yerine getirilip getirilmediği ya da işlemede hangi yöntemlerin izlendiğiyle ilgili olarak veri sorumlusuna bilgi ve hesap vermekle yükümlüdür. Hesap verme borcunun tam ve doğru bir şekilde ifa edilebilmesi, kanaatimizce veri işleyenin işleme faaliyetlerine ilişkin olarak kayıt tutmasıyla (logging) mümkündür. Bu konuda Türk hukukunda bir düzenleme olmamakla birlikte; GVKT m. 30/II’de veri işleyenlere yönelik olarak kayıt tutma yükümlülüğü öngörülmüştür.
+
+Gerekli denetimlerin yapılmasına müsaade etme yükümlülüğü (GVKT m. 28/III-h)
+Taraflar arasında yapılacak sözleşmede, işleme faaliyetlerinin denetlenmesine ilişkin hükümler öngörülebilir. Bu hükümler kapsamında veri işleyene, gerekli tüm bilgileri veri sorumlusuna ve denetçilere açma yükümlülüğü getirilebilir. Esasında bu durum Kanun’un 12. maddesinin üçüncü fıkrasında veri sorumlusuna yönelik öngörülmüş yükümlülüğün, veri işleyene bir yansımasını oluşturmaktadır.
+
+Veri işleyenin sözleşmenin sonlanmasıyla kişisel verileri silme veya iade etme yükümlülüğü (GVKT m. 28/III-g)
+6698 sayılı Kanunda kişisel verilerin iadesine ilişkin herhangi bir hüküm bulunmamaktadır. GVKT’de ise veri sorumlusuyla veri işleyen arasındaki sözleşme ilişkisinin sonlanması durumunda veri işleyene, seçim hakkı veri sorumlusuna ait olmak üzere, birlik veya üye ülke hukuku aksini gerektirmedikçe kişisel verilerin tamamını silmek ya da verileri veri sorumlusuna aktarma yükümlülüğü getirilmiştir (GVKT m. 28/III-g). Anılan yükümlülük, Türkiye’deki veri sorumluları ve veri işleyenler arasındaki ilişkiler bakımından da KVİS aracılığıyla kararlaştırılabilir.
+
+Taraflar arasındaki sorumluluğun tespiti, sınırlandırılması ve rücu ilişkisinin düzenlenmesi
+Kişisel veri işleme sözleşmesine özgü olmayan, ancak düzenlenmesi gereken hususlardan birisi de taraflar arasındaki sorumluluğun tespiti ve rücu ilişkisinin belirlenmesidir. Veri işleyenden kaynaklanan sebeplerle verilerin hukuka aykırı şekilde erişilmesi ya da işlenmesi veya muhafaza edilmemesi hallerinde muhatap olunan idari para cezaları ya da tazminat davaları kapsamında veri sorumlusunun veri işleyene karşı rücu hakkının KVİS’le öngörülmesi mümkündür.</value>
+  </data>
+</root>
